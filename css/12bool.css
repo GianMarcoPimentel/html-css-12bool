@@ -5,7 +5,7 @@
 }
 .container {
     max-width: 100%;
-    margin: 0px;
+    margin: 0 auto;
 }
 .row {
     display: flex;
@@ -14,14 +14,15 @@
     margin-bottom: 2px;
 
 }
-.mb{
-    margin-bottom: 30px;
-}
 /* test */
 [class*="col-"] {
     background-color: #006CFA;
     border: 2px solid white;
     height: 70px;
+    padding: 20px 0px;
+    text-align: center;
+    color: white;
+
 }
 
 .justify-center{
