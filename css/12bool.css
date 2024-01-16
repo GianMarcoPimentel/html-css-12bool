@@ -3,57 +3,77 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.container {
+    max-width: 100%;
+    margin: 0px;
+}
 .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-bottom: 2px;
+
+}
+.mb{
+    margin-bottom: 30px;
+}
+/* test */
+[class*="col-"] {
+    background-color: #006CFA;
+    border: 2px solid white;
+    height: 70px;
 }
 
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
 /* Impostazione selettori colonne */
 .col-1 {
-    flex-basis: calc((100% / 12));
-    max-width: calc((100% / 12));
-}
+    flex-basis: calc((100% / 12 ));
+    max-width: calc((100% / 12 ));
+} 
 
 .col-2 {
-    flex-basis: calc((100% / 12) *  2);
-    max-width: calc((100% / 12) *  2);
+    flex-basis: calc((100% / 12) *  2 );
+    max-width: calc((100% / 12) *  2 );
 }
 
 .col-3 {
-    flex-basis: calc((100% / 12) *  3);
-    max-width: calc((100% / 12) *  3);
+    flex-basis: calc((100% / 12) *  3 );
+    max-width: calc((100% / 12) *  3 );
 }
 
 .col-4 {
-    flex-basis: calc((100% / 12) *  4);
-    max-width: calc((100% / 12) *  4);
+    flex-basis: calc((100% / 12) *  4 );
+    max-width: calc((100% / 12) *  4 );
 }
 
 .col-5 {
-    flex-basis: calc((100% / 12) *  5);
-    max-width: calc((100% / 12) *  5);
+    flex-basis: calc((100% / 12) *  5 );
+    max-width: calc((100% / 12) *  5 );
 }
 
 .col-6 {
-    flex-basis: calc((100% / 12) *  6);
-    max-width: calc((100% / 12) *  6);
+    flex-basis: calc((100% / 12) *  6 );
+    max-width: calc((100% / 12) *  6 );
 }
 
 .col-7 {
-    flex-basis: calc((100% / 12) *  7);
-    max-width: calc((100% / 12) *  7);
+    flex-basis: calc((100% / 12) *  7 );
+    max-width: calc((100% / 12) *  7 );
 }
 
 .col-8 {
-    flex-basis: calc((100% / 12) *  8);
-    max-width: calc((100% / 12) *  8);
+    flex-basis: calc((100% / 12) *  8 );
+    max-width: calc((100% / 12) *  8 );
 }
 
 .col-9 {
-    flex-basis: calc((100% / 12) *  9);
-    max-width: calc((100% / 12) *  9);
+    flex-basis: calc((100% / 12) *  9 );
+    max-width: calc((100% / 12) *  9 );
 }
 
 .col-10 {
@@ -68,11 +88,11 @@
 }
 
 .col-12 {
-    flex-basis: calc((100% / 12) * 12);
-    max-width: calc((100% / 12) * 12);
+     flex-basis: calc((100% / 12) * 12 );
+     max-width: calc((100% / 12) * 12 );
 }
 
-/* Impostazione offsets colonne */
+ /* Impostazione offsets colonne */
 
 .offset-1 {
     margin-left: calc(100% / 12 * 1);
