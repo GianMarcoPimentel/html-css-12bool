@@ -1,5 +1,6 @@
 h1{
     font-size: 25px;
+    margin-bottom: 5px;
 }
 .mb{
     margin-bottom: 30px;
@@ -7,8 +8,20 @@ h1{
 .height{
     height: 140px;
 }
+.less-height{
+    height: 50%;
+}
 .padding{
     padding: 20px 20px;
+}
+.aling-top{
+    align-items: flex-start;
+}
+.align-center{
+    align-items: center;
+}
+.align-bottom{
+    align-items: flex-end;
 }
 .green{
     background-color: #00E165;
